@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TadeuRodrigues>
+            <version>1.0</version>
+        </TadeuRodrigues>
+    </modules>
+    <global>
+        <blocks>
+        	<catalog>
+            	<rewrite>
+                	<product_list_toolbar>TadeuRodrigues_ListProducts_Block_Product_List_Toolbar</product_list_toolbar>
+                </rewrite>
+            </catalog>
+        </blocks>
+        <models>
+            <catalog>
+                <rewrite>
+                    <config>TadeuRodrigues_ListProducts_Model_Catalog_Config</config>
+                </rewrite>
+            </catalog>
+	  <listproducts>
+		<class>TadeuRodrigues_ListProducts_Model</class>
+		<resourceModel>listproducts_mysql4</resourceModel>
+	  </listproducts>
+        </models>
+    </global>
+    <default>
+    	<catalog>
+    		<frontend>
+    			<show_sort>created_at,position,name,price</show_sort>
+    		</frontend>
+    	</catalog>
+    </default>
+</config>
