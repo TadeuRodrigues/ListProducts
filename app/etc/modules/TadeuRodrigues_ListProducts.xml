@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TadeuRodrigues_ListProducts>
+            <active>true</active>
+            <codePool>local</codePool>
+        </TadeuRodrigues_ListProducts>
+    </modules>
+</config>
